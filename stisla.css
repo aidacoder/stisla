@@ -1,0 +1,157 @@
+body {
+    background-color:white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+#container {
+    width: 100%;
+    height: 700px;
+    flex-direction: row;
+    display: flex;
+
+}
+
+
+#sidebar {
+    background-color: white;
+    width: 30%;
+    height: 700px;
+    padding: 30px;
+    /* display: flex; */
+}
+
+#gambar img {
+    height: 80px;
+    width: 80px;
+}
+
+#paragraf1 {
+    font-size: 30px;
+    padding-top: 30px; 
+    display: flex; 
+
+}
+#tebal {
+    font-weight: bold;
+    display: flex;
+    padding-left: 5px;
+}
+
+#paragraf2 {
+    padding-top: 20px;
+
+}
+#email1 {
+    margin-top: 10px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+#email input {
+    padding: 10px;
+    width: 60%;
+    height: 10px;
+
+}
+
+#sandi1 {
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+#sandi input {
+    padding: 10px;
+    width: 60%;
+    height: 10px;
+}  
+
+#remember {
+    display: flex;
+    padding-top: 20px;
+
+}
+
+#teks {
+    padding-left: 20px;
+
+}
+
+#a {
+    display: flex;
+}
+
+
+#teks1{
+    display: flex;
+    margin-top: 40px;
+    color: blue;
+    
+}
+ 
+  #login  {
+      display: flex;
+      margin-top: 40px;
+      padding-left: 20%;
+      border-radius: 10px;
+      
+  }
+
+  #login input {
+      border-radius: 5px;
+      background-color: rgb(80, 80, 182);
+      color: white;
+      width:100px;
+      height:40px;
+  }
+
+  #teks2 {
+      padding-top:40px;
+      padding-left: 20px;
+  }
+
+  #footer {
+    padding-top: 80px;
+  }
+  
+  #teks4{
+      padding-top: 20px;
+      padding: 20px;
+      color: blue;
+  }
+    
+  #sidebar2 {
+      width: 70%;
+      height: 700px;
+      padding: 30px;
+      background-image: url("justi.jpg");
+      background-size: cover;  
+      align-items: flex-start;
+  }
+ #m {
+     padding-top: 500px;
+     color: white;
+ }
+ #good {
+     font-size: 50px;
+     font-weight: bold;
+     
+ }
+ 
+ #bali {
+     font-size: 20px;
+     
+ }
+
+ #by {
+     font-size: 15px;
+     padding-top: 60px;
+     text-decoration: underline;
+ }
+
+
